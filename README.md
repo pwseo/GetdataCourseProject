@@ -39,7 +39,8 @@ Breaking it down to steps, the script does the following:
 4. Merge the `train` and `test` datasets into a single dataset.
 6. Keep only data related to the means and standard deviations of the original measurements.
 5. Label the resulting dataset's variables (columns) and activities appropriately.
-7. Output the mean for every variable (column) grouped by subject and activity.
+7. Summarize the dataset by averaging every variable (column) grouped by subject and activity.
+8. Output the dataset to the `final.txt` file.
 
 
 ## Packages required
