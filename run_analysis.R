@@ -13,7 +13,12 @@ data.out <- 'final.txt'
 
 if (!file.exists(data.dir)) {
   if (!file.exists(data.zip)) {
-    download.file(data.url, destfile = data.zip, method = "curl")
+    if (Sys.info()[['sysname']] == 'Windows') {
+      setInternet2(use = T)
+      download.file(data.url, destfile = data.zip)
+    } else {
+      download.file(data.url, destfile = data.zip, method = "curl")
+    }
   }
   unzip(data.zip)
 }
