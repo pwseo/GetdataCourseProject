@@ -38,6 +38,6 @@ To ease understanding, the remaining variable names were left mostly untouched (
 For details on what each variable represents, please refer to the `README.txt` file shipped with the data at the root of the `UCI HAR Dataset` directory.
 
 
-## References
+## References & original data
 
 1. [UCI Machine Learning Repository: Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)

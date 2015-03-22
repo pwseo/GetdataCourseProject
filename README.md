@@ -46,3 +46,8 @@ Breaking it down to steps, the script does the following:
 ## Packages required
 
 The script was written using only base R functions, so no third-party packages are required.
+
+
+## References & original data
+
+1. [UCI Machine Learning Repository: Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
