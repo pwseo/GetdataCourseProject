@@ -15,7 +15,7 @@ You should be able to simply run it without problems:
 
     ~ $ git clone https://github.com/pwseo/GetdataCourseProject.git
     ~ $ cd GetdataCourseProject
-    ~/GetdataCourseProject $ R -f run_analysis.R
+    ~/GetdataCourseProject $ Rscript run_analysis.R
     
 You can also run the script from a currently running R session:
 
