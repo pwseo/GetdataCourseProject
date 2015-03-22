@@ -33,5 +33,11 @@ Please refer to the `README.md` file for instructions on how to run the R script
   - `STANDING`
   - `LAYING`
 
-For simplicity, the remaining variable names were left mostly untouched, except for the substitutions of `-mean()` and `-std()` for `Mean` and `SD` and `-XYZ` for `.XYZ`.
-For details on what is recorded in each variable, please refer to the `README.txt` file shipped with the data at the root of the `UCI HAR Dataset` directory.
+The remaining variables in the final dataset contain averages for each of the variables kept from the original dataset, grouped by subject and activity.
+To ease understanding, the remaining variable names were left mostly untouched (appart from the substitutions of `-mean()` and `-std()` for `Mean` and `SD` and `-XYZ` for `.XYZ`, meant to tidy the variable names).
+For details on what each variable represents, please refer to the `README.txt` file shipped with the data at the root of the `UCI HAR Dataset` directory.
+
+
+## References
+
+1. (UCI Machine Learning Repository: Human Activity Recognition Using Smartphones Data Set)[http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]
